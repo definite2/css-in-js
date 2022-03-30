@@ -22,11 +22,9 @@ const Slide2 = () => {
         >
           <ListItem margin="10px 0 20px">What is CSS-in-JS?</ListItem>
           <ListItem margin="10px 0 20px">Why use it?</ListItem>
-          <ListItem margin="10px 0 20px">Examples</ListItem>
+          <ListItem margin="10px 0 20px">Common and Advanced Features</ListItem>
           <ListItem margin="10px 0 20px">The tradeoffs</ListItem>
-          <ListItem margin="10px 0 20px">
-            Extras: My favorite libraries
-          </ListItem>
+          <ListItem margin="10px 0 20px">Extra: My favorite libraries</ListItem>
         </UnorderedList>
       </Container>
     </Slide>
