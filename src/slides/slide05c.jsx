@@ -1,6 +1,6 @@
 import React from 'react';
 import atom from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
-import { Slide, CodePane, Text } from 'spectacle';
+import { Slide, CodePane, Text, Notes } from 'spectacle';
 import Container from '../layouts/Container';
 
 const Slide5c = () => {
@@ -24,7 +24,9 @@ const Slide5c = () => {
               overflow: 'auto',
             }}
           >
-            <Text style={{ textAlign: 'center', marginBottom: 20 }}>JSS</Text>
+            <Text style={{ textAlign: 'center', marginBottom: 20 }}>
+              Object Styles syntax
+            </Text>
             <CodePane language="jsx" theme={atom} highlightRanges={[15, 18]}>
               {`
           const styles = {
@@ -56,7 +58,7 @@ const Slide5c = () => {
           </div>
           <div style={{ width: '500px', overflow: 'auto' }}>
             <Text style={{ textAlign: 'center', marginBottom: 20 }}>
-              Class Names
+              End Result
             </Text>
             <CodePane
               language="javascript"
@@ -74,6 +76,10 @@ const Slide5c = () => {
           </div>
         </div>
       </Container>
+      <Notes>
+        birincisi object styles syntax: css değerlerimizi normal javascript
+        objesi olarak tanımlayabiliyoruz
+      </Notes>
     </Slide>
   );
 };

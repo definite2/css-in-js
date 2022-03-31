@@ -6,7 +6,7 @@ import reactStats from '../assets/react_installs.png';
 const Slide5a = () => {
   return (
     <Slide>
-      <Heading fontSize={35} textColor="secondary" caps>
+      <Heading fontSize={45} textColor="secondary" caps>
         Trends in CSS-in-JS libraries
       </Heading>
       <Container>

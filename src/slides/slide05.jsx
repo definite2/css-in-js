@@ -28,7 +28,7 @@ const Slide5 = () => {
         <UnorderedList>
           <Appear>
             <ListItem
-              fontSize={30}
+              fontSize={35}
               margin="8px 0 16px 0px"
               lineHeight={1.2}
               style={{ listStyle: 'none' }}
@@ -40,14 +40,13 @@ const Slide5 = () => {
           </Appear>
           <Appear>
             <ListItem
-              fontSize={30}
+              fontSize={35}
               lineHeight={1.2}
               margin="32px 0 16px 0px"
               style={{ listStyle: 'none' }}
             >
-              - CSS-in-JS libraries have been gaining attraction since
-              component-based JavaScript frameworks appeared in front-end
-              development.
+              - Have been gaining attraction since component-based JavaScript
+              frameworks
             </ListItem>
           </Appear>
           <Appear>

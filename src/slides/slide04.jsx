@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Heading, Image, Slide } from 'spectacle';
-import tweet1 from '../assets/mike.gif';
 
 const Slide4 = () => {
   return (
@@ -16,7 +14,10 @@ const Slide4 = () => {
           textAlign: 'center',
         }}
       >
-        <Image src={tweet1} height={600} />
+        <Image
+          src={'https://media.giphy.com/media/9DGFdfnT6SJSE/giphy.gif'}
+          height={500}
+        />
       </div>
     </Slide>
   );

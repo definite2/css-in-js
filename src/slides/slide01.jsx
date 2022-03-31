@@ -21,7 +21,7 @@ const Slide1 = () => {
           Defne Eroğlu
         </Text>
         <Text margin="10px 0 100px" textSize={20}>
-          @Appsamurai - March 2022
+          @Appsamurai - April 2022
         </Text>
       </Container>
     </Slide>

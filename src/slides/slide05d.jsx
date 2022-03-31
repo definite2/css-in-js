@@ -1,6 +1,6 @@
 import React from 'react';
 import atom from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
-import { Slide, CodePane, Text } from 'spectacle';
+import { Slide, CodePane, Text, Notes } from 'spectacle';
 import Container from '../layouts/Container';
 
 const Slide5d = () => {
@@ -18,7 +18,7 @@ const Slide5d = () => {
         >
           <div style={{ width: '500px', overflow: 'auto' }}>
             <Text style={{ textAlign: 'center', marginBottom: 20 }}>
-              styled-components
+              Tagged Templates syntax
             </Text>
             <CodePane
               language="javascript"
@@ -49,7 +49,7 @@ const Slide5d = () => {
             }}
           >
             <Text style={{ textAlign: 'center', marginBottom: 20 }}>
-              Class Name in DOM
+              End Result
             </Text>
             <CodePane language="jsx" theme={atom}>
               {`
@@ -59,6 +59,10 @@ const Slide5d = () => {
           </div>
         </div>
       </Container>
+      <Notes>
+        İkincisi template literals backtck kullanarak tagged template
+        kullanıyoruz{' '}
+      </Notes>
     </Slide>
   );
 };
